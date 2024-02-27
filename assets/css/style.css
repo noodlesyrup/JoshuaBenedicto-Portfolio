@@ -6,10 +6,6 @@
  * copyright 2022 codewithsadee
  */
 
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -19,7 +15,6 @@
   /**
    * colors
    */
-
   --cadet-blue-crayola: hsl(240, 10%, 70%);
   --gold-web-golden: hsl(50, 100%, 54%);
   --vivid-sky-blue: hsl(196, 84%, 63%);
@@ -36,11 +31,9 @@
   --rufous: hsl(2, 85%, 35%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
-
   /**
    * typography
    */
-
   --ff-open-sans: 'Open Sans', sans-serif;
   --ff-barlow: 'Barlow', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
@@ -85,10 +78,6 @@
   --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
 
 }
-
-
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -163,8 +152,6 @@ body {
 ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
 
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
-
-
 
 
 
@@ -314,10 +301,6 @@ h1{
   margin-block-start: 15px;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
@@ -326,7 +309,6 @@ h1{
 .rotate-img { display: none; }
 
 .hero {
-  /* background-image: url("../images/Nature-BG.jpg"); */
   background-image: linear-gradient(to bottom, #71c9ce, #88d3d6, #9edcdf, #b3e6e8, #c8f0f1, #d1f4f5, #daf9f9, #e3fdfd, #e3fdfd, #e3fdfd, #e3fdfd, #e3fdfd);
   background-repeat: no-repeat;
   background-size: cover;
@@ -336,15 +318,6 @@ h1{
   display: grid;
   place-items: center;
 }
-
-/* .hero-banner {
-  width: 150px;
-  height: 172px;
-  background-color: var(--independence);
-  border-radius: var(--radius-10);
-  margin-inline: auto;
-  margin-block-end: 30px;
-} */
 
 .hero-banner img { border-radius: inherit; }
 
@@ -413,10 +386,6 @@ h1{
 
 .about :is(.section-title, .section-text) { margin-block-end: 30px; }
 
-
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -468,10 +437,6 @@ h1{
   font-size: 1.6rem;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #SKILLS
 \*-----------------------------------*/
@@ -479,11 +444,6 @@ h1{
 .skills .section-title { margin-block-end: 20px; }
 
 .skills .section-text { margin-block-end: 70px; }
-
-/* .skills-list {
-  display: grid;
-  gap: 25px;
-} */
 
 .skills-item .wrapper {
   display: flex;
@@ -512,19 +472,9 @@ h1{
   border-radius: inherit;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #CONTACT
 \*-----------------------------------*/
-
-/* .contact-card {
-  background-color: var(--midnight-blue);
-  padding: 50px 25px;
-  border-radius: var(--radius-20);
-} */
 
 .contact-card .card-subtitle {
   text-align: center;
@@ -601,10 +551,6 @@ textarea.contact-input {
 
 .contact-item-link:not(address):is(:hover, :focus) { color: var(--orange-soda); }
 
-
-
-
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -653,10 +599,6 @@ textarea.contact-input {
 
 .blog-card .card-title a:is(:hover, :focus) { color: var(--orange-soda); }
 
-
-
-
-
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -692,10 +634,6 @@ textarea.contact-input {
 .footer-link { transition: var(--transition-2); }
 
 .footer-link:is(:hover, :focus) { color: var(--white); }
-
-
-
-
 
 /*-----------------------------------*\
   #BACK TO TOP
@@ -747,10 +685,6 @@ textarea.contact-input {
   .portfolio-list li:nth-child(even) .card-content { margin-inline-start: 65%; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 768px screen
@@ -862,7 +796,6 @@ textarea.contact-input {
   }
 
 
-
   /**
    * HERO
    */
@@ -959,8 +892,6 @@ textarea.contact-input {
     100% { transform: rotate(1turn); }
   }
 
-
-
   /**
    * ABOUT
    */
@@ -1018,8 +949,6 @@ textarea.contact-input {
     background-color: var(--rufous);
   }
 
-
-
   /**
    * PORTFOLIO
    */
@@ -1028,15 +957,11 @@ textarea.contact-input {
 
   .portfolio-card .btn-link { --fs-6: 1.6rem; }
 
-
-
   /**
    * SKILLS
    */
 
   .skills-list { column-gap: 100px; }
-
-
 
   /**
    * CONTACT
@@ -1060,8 +985,6 @@ textarea.contact-input {
 
   .contact-icon { padding: 15px; }
 
-
-
   /**
    * BLOG
    */
@@ -1072,8 +995,6 @@ textarea.contact-input {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
   }
-
-  
 
   /**
    * FOOTER
