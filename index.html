@@ -6,19 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joshua Benedicto - Portfolio</title>
-
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
-
   <!-- custom css link -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - google font link
-  -->
+  <!-- google font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- Devicon -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9ee6f20eb0.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="top">
@@ -37,63 +36,38 @@
       </button>
       <nav class="navbar container">
         <ul class="navbar-list">
-
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a></li>
+          <li><a href="#skills" class="navbar-link" data-nav-link>Skills</a></li>
+          <li><a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+          <li><a href="../Joshua_Benedicto_Resume.pdf" download="Joshua_Benedicto_Resume.pdf" class="navbar-link">Download Résumé</a>
           </li>
-
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
-          </li>
-
-          <li>
-            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
-          </li>
-
-          <li>
-            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
-          </li>
-
-          <li>
-            <a href="../Joshua_Benedicto_Resume.pdf" download="Joshua_Benedicto_Resume.pdf" class="btn btn-primary">Download Résumé</a>
-          </li>
-
         </ul>
       </nav>
-
     </div>
   </header>
 
   <main>
     <article>
-
       <section class="hero" id="home">
-
           <div class="hero-content">
-
             <h2 class="hero-title">Hello I'm</h2>
             <h1><strong>Joshua Benedicto</strong> </h1>
             <h2 class="hero-title">Aspiring Software Developer/Engineer</h2>
-
             <p class="hero-text">
               Graduated with a BSc degree in Mathematics major in Computer Science seeking an entry-level Software Developer/Engineer position.
             </p>
-
             <div class="contact-icon-holder">
               <a href="https://www.facebook.com/Noodlesyrup" target="_blank">
-                <img src="./assets/images/facebook.png" alt="facebook-logo">
+                <i class="fa-brands fa-square-facebook"></i>
               </a>
               <a href="https://github.com/noodlesyrup" target="_blank">
-                <img src="./assets/images/github.png" alt="github-logo">
+                <i class="fa-brands fa-square-github"></i>
               </a>
               <a href="https://www.linkedin.com/in/benedictojoshua/" target="_blank">
-                <img src="./assets/images/linkedin.png" alt="linkedin-logo">
+                <i class="fa-brands fa-linkedin"></i>
               </a>
-
             </div>
           </div>
       </section>
@@ -105,12 +79,12 @@
       <section class="section about" id="about">
         <div class="container">
 
-          <figure class="about-banner">
+          <div class="about-banner">
 
             <img src="./assets/images/software-development.gif" loading="lazy" alt="software-development"
               class="img-cover">
 
-          </figure>
+          </div>
 
           <div class="about-content">
 
@@ -224,7 +198,6 @@
                 </div>
               </a>
             </li>
-
           </ul>
           <a href="https://github.com/noodlesyrup" target="_blank" class="github-link"><strong>View my other works</strong></a>
         </div>
@@ -237,27 +210,81 @@
 
       <section class="section skills" id="skills">
         <div class="container">
-
           <p class="section-subtitle">My Skillset</p>
-
           <h2 class="h2 section-title">Languages and Tools familiar with</h2>
-
-            <div class="scroller__inner">
-              <img class="icon-container" src="./assets/images/java.png" alt="" />
-              <img class="icon-container" src="./assets/images/css-3.png" alt="" />
-              <img class="icon-container" src="./assets/images/sql-server.png" alt="" />
-              <img class="icon-container" src="./assets/images/bootstrap.png" alt="" />
-              <img class="icon-container" src="./assets/images/c-sharp.png" alt="" />
-              <img class="icon-container" src="./assets/images/html-5.png" alt="" />
-              <img class="icon-container" src="./assets/images/js.png" alt="" />
-              <img class="icon-container" src="./assets/images/Android_Studio_icon_(2023).svg.png" alt="" />
-              <img class="icon-container" src="./assets/images/unity.png" alt="" />
-              <img class="icon-container" src="./assets/images/visual-studio.png" alt="" />
-              <img class="icon-container" src="./assets/images/vscode.png" alt="" />
-              <img class="icon-container" src="./assets/images/Adobe_XD_CC_icon.svg.png" alt="" />
-              <img class="icon-container" src="./assets/images/Adobe_Photoshop_CC_icon.svg.png" alt="" />
-              <img class="icon-container" src="./assets/images/Blender_logo_no_text.svg.png" alt="" />
-            
+            <div class="skill-icons-container">
+              <ul class="skill-icons">
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-java-plain"><p>Java</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-csharp-plain"><p>C#</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-javascript-plain"><p>Javascript</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-cplusplus-plain"><p>C++</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-html5-plain"><p>HTML5</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-css3-plain"><p>CSS</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-bootstrap-plain"><p>Bootstrap</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-mysql-original"><p>mySQL</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-unity-plain"><p>Unity</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-blender-original"><p>Blender</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-androidstudio-plain"><p>Android Studio</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-vscode-plain"><p>VS Code</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-git-plain"><p>Git</p></i>
+                  </div>
+                </li>
+                <li>
+                  <div class="skill-tile">
+                    <i class="devi devicon-xd-plain"><p>Adobe XD</p></i>
+                  </div>
+                </li>
+              </ul>
             </div>
         </div>
       </section>
@@ -269,115 +296,78 @@
 
       <section class="section contact" id="contact">
         <div class="container">
-
           <div class="contact-card">
-
             <p class="card-subtitle">Contacts</p>
-
             <h2 class="h2 section-title">Look forward to hearing from you soon</h2>
-
             <div class="wrapper">
-
               <form action="https://formsubmit.co/benedicto.joshuab@gmail.com" method="post" class="contact-form">
-
                 <input type="text" name="name" placeholder="Name" required class="contact-input">
-
                 <input type="email" name="email" placeholder="Email" required class="contact-input">
-
                 <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
-
                 <button type="submit" class="btn-submit">Submit Message</button>
-
               </form>
-
               <ul class="contact-list">
-
                 <li class="contact-item">
-
                   <div class="contact-icon">
                     <ion-icon name="location"></ion-icon>
                   </div>
-
                   <div>
                     <h3 class="contact-item-title">Address</h3>
-
                     <address class="contact-item-link">
                       City of San Jose Del Monte, Bulacan
                     </address>
                   </div>
-
                 </li>
-
                 <li class="contact-item">
-
                   <div class="contact-icon">
                     <ion-icon name="mail"></ion-icon>
                   </div>
-
                   <div>
                     <h3 class="contact-item-title">Email</h3>
-
                     <a class="contact-item-link">benedicto.joshuab@gmail.com</a>
                   </div>
-
                 </li>
-
                 <li class="contact-item">
-
                   <div class="contact-icon">
                     <ion-icon name="call"></ion-icon>
                   </div>
-
                   <div>
                     <h3 class="contact-item-title">Phone</h3>
-
                     <a class="contact-item-link">+63 956-813-0383</a>
                   </div>
-
                 </li>
-
               </ul>
-
             </div>
-
           </div>
-
         </div>
       </section>
-
   <!-- 
     - #FOOTER
   -->
-
   <footer class="footer">
     <div class="container">
-
-      <div class="contact-icon-holder">
         <a href="https://www.facebook.com/Noodlesyrup" target="_blank">
-          <img src="./assets/images/facebook-logo-white.png" alt="facebook-logo">
+          <i class="fa-brands fa-square-facebook"></i>
         </a>
         <a href="https://github.com/noodlesyrup" target="_blank">
-          <img src="./assets/images/github-logo-white.png" alt="github-logo">
+          <i class="fa-brands fa-square-github"></i>
         </a>
         <a href="https://www.linkedin.com/in/benedictojoshua/" target="_blank">
-          <img src="./assets/images/linkedin-logo-white.png" alt="linkedin-logo">
+          <i class="fa-brands fa-linkedin"></i>
         </a>
-
-      </div>
     </div>
+    <p class="footer-text">
+      © 2024 - Joshua Benedicto
+    </p>
   </footer>
-
   <!-- 
     - #BACK TO TOP
   -->
-
   <a href="#top" class="back-to-top" data-back-to-top>HOME</a>
-
   <!-- 
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-
   <!-- 
     - ionicon link
   -->
