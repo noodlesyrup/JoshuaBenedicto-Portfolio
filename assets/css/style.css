@@ -1,6 +1,7 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
+@import url('https://fonts.cdnfonts.com/css/agustina');
 
 :root {
 
@@ -29,6 +30,7 @@
   --ff-open-sans: 'Open Sans', sans-serif;
   --ff-barlow: 'Barlow', sans-serif;
   --ff-poppins: 'Poppins', sans-serif;
+  --ff-agustina: agustina, sans-serif;
 
   --fs-1: 3.5rem;
   --fs-2: 3rem;
@@ -245,8 +247,8 @@ h1{
 
 .logo {
   color: var(--white);
-  font-family: var(--ff-poppins);
-  font-size: 2.4rem;
+  font-family: var(--ff-agustina);
+  font-size: 2.5rem;
 }
 
 .nav-toggle-btn { font-size: 3rem; }
@@ -434,7 +436,10 @@ h1{
   font-size: 1.7rem;
 }
 
-.github-link:is(:hover, :focus) { color: var(--orange-soda); }
+.github-link:hover{
+  color: var(--orange-soda);
+  transform: scale(1.2);
+}
 
 /*-----------------------------------*\
   #SKILLS
@@ -556,6 +561,7 @@ textarea.contact-input {
 
 .fa-brands:hover{
   color: var(--orange-soda);
+  transform: scale(1.2);
 }
 
 .contact{
