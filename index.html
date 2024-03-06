@@ -33,8 +33,10 @@
         <h1 class="logo">Joshua Benedicto</h1>
       </a>
       <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
-        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
-        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+        <!-- <ion-icon name="menu-outline" class="menu-icon"></ion-icon> -->
+        <i class="fa-solid fa-bars menu-icon"></i>
+        <!-- <ion-icon name="close-outline" class="close-icon"></ion-icon> -->
+        <i class="fa-solid fa-xmark close-icon"></i>
       </button>
       <nav class="navbar container">
         <ul class="navbar-list">
@@ -60,6 +62,7 @@
             <p class="hero-text" data-aos="fade-down">
               Graduated with a BSc degree in Mathematics major in Computer Science seeking an entry-level Software Developer/Engineer position.
             </p>
+            <!-- Social Media Icons -->
             <div class="contact-icon-holder">
               <a href="https://www.facebook.com/Noodlesyrup" target="_blank">
                 <i class="fa-brands fa-square-facebook" data-aos="fade-up-right" data-aos-delay="1300" data-aos-duration="800"></i>
@@ -78,36 +81,26 @@
       <!-- 
         - #ABOUT
       -->
+
       <section class="section about" id="about">
         <div class="container">
-
           <div class="about-banner">
-
             <img src="./assets/images/software-development.gif" loading="lazy" alt="software-development"
               class="img-cover" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1000">
-
           </div>
-
-          <div class="about-content" data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="1000">
-
+          <div class="about-content" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
             <p class="section-subtitle">About me</p>
-
             <h2 class="h2 about-part">A passionate Software Developer</h2>
-
             <p class="about-content">
               having an experience of building Website, Game application and UI/UX Design with / C# / JavaScript / Unity Game Engine / Adobe XD and some other cool technologies.
             </p>
-
             <p class="about-content">
               I also expercience 2D/3D modeling during my academic career, wherein I have successfully created assets, game environments, game mechanics, and executed level design. 
               My experience in this field reflects a comprehensive understanding of the complexity involved in the creation and development of graphical elements and interactive 
               gaming components.
             </p>
-
             <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
-
           </div>
-
         </div>
       </section>
       <hr>
@@ -118,85 +111,57 @@
 
       <section class="section portfolio" id="portfolio">
         <div class="container">
-
           <p class="section-subtitle">Portfolio</p>
-
           <h2 class="h2 section-title">List of my Works</h2>
-
           <p class="section-text">
              Here are my projects I've worked on during my academic years.
           </p>
-
           <ul class="portfolio-list">
-
-            <li>
+            <li data-aos="flip-up" data-aos-delay="200">
               <a href="https://github.com/noodlesyrup/Math-Labyrinth" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
                 <div class="card-content">
-
                   <p class="card-subtitle">Desktop Application</p>
-
                   <h3 class="h3 card-title">Math Labyrinth</h3>
-
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
               </a>
             </li>
-
-            <li>
+            <li data-aos="flip-up" data-aos-delay="200">
               <a href="https://github.com/noodlesyrup/Bulseeker-UI-Design" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
                 <div class="card-content">
-
                   <p class="card-subtitle">UI/UX Design</p>
-
                   <h3 class="h3 card-title">Bulseeker</h3>
-
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
               </a>
             </li>
-
-            <li>
+            <li data-aos="flip-up" data-aos-delay="200">
               <a href="https://github.com/noodlesyrup/OddKnight" class="portfolio-card" target="_blank" style="background-image: url('./assets/images/portfolio-3.jpg')">
                 <div class="card-content">
-
                   <p class="card-subtitle">Desktop Application</p>
-
                   <h3 class="h3 card-title">OddKnight</h3>
-
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
               </a>
             </li>
-
-            <li>
+            <li data-aos="flip-up" data-aos-delay="200">
               <a href="https://github.com/noodlesyrup/Bomb-Jack-Remake" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
                 <div class="card-content">
-
                   <p class="card-subtitle">Desktop Application</p>
-
                   <h3 class="h3 card-title">BombJack Remake</h3>
-
                   <span class="btn-link">
                     <span>View Project</span>
-
                     <ion-icon name="arrow-forward"></ion-icon>
                   </span>
-
                 </div>
               </a>
             </li>
@@ -213,76 +178,76 @@
       <section class="section skills" id="skills">
         <div class="container">
           <p class="section-subtitle">My Skillset</p>
-          <h2 class="h2 section-title">Languages and Tools familiar with</h2>
-            <div class="skill-icons-container">
+          <h2 class="h2 section-title">Languages and Tools Familiar With</h2>
+            <div>
               <ul class="skill-icons">
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
                     <i class="devi devicon-java-plain"><p>Java</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800">
                     <i class="devi devicon-csharp-plain"><p>C#</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="800">
                     <i class="devi devicon-javascript-plain"><p>Javascript</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="800">
                     <i class="devi devicon-cplusplus-plain"><p>C++</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="800">
                     <i class="devi devicon-html5-plain"><p>HTML5</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="800">
                     <i class="devi devicon-css3-plain"><p>CSS</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="2400" data-aos-duration="800">
                     <i class="devi devicon-bootstrap-plain"><p>Bootstrap</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="2200" data-aos-duration="800">
                     <i class="devi devicon-mysql-original"><p>mySQL</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="2000" data-aos-duration="800">
                     <i class="devi devicon-unity-plain"><p>Unity</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="1800" data-aos-duration="800">
                     <i class="devi devicon-blender-original"><p>Blender</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="1600" data-aos-duration="800">
                     <i class="devi devicon-androidstudio-plain"><p>Android Studio</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="800">
                     <i class="devi devicon-vscode-plain"><p>VS Code</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="2600" data-aos-duration="800">
                     <i class="devi devicon-git-plain"><p>Git</p></i>
                   </div>
                 </li>
                 <li>
-                  <div class="skill-tile">
+                  <div class="skill-tile" data-aos="zoom-in" data-aos-delay="2800" data-aos-duration="800">
                     <i class="devi devicon-xd-plain"><p>Adobe XD</p></i>
                   </div>
                 </li>
@@ -310,9 +275,10 @@
               </form>
               <ul class="contact-list">
                 <li class="contact-item" data-aos="fade-right" data-aos-delay="200">
-                  <div class="contact-icon">
+                  <!-- <div class="contact-icon">
                     <ion-icon name="location"></ion-icon>
-                  </div>
+                  </div> -->
+                  <i class="fa-solid fa-location-dot contact-icon"></i>
                   <div>
                     <h3 class="contact-item-title">Address</h3>
                     <address class="contact-item-link">
@@ -321,18 +287,20 @@
                   </div>
                 </li>
                 <li class="contact-item" data-aos="fade-right" data-aos-delay="400">
-                  <div class="contact-icon">
+                  <!-- <div class="contact-icon">
                     <ion-icon name="mail"></ion-icon>
-                  </div>
+                  </div> -->
+                  <i class="fa-solid fa-envelope contact-icon"></i>
                   <div>
                     <h3 class="contact-item-title">Email</h3>
                     <a class="contact-item-link">benedicto.joshuab@gmail.com</a>
                   </div>
                 </li>
                 <li class="contact-item" data-aos="fade-right" data-aos-delay="600">
-                  <div class="contact-icon">
+                  <!-- <div class="contact-icon">
                     <ion-icon name="call"></ion-icon>
-                  </div>
+                  </div> -->
+                  <i class="fa-solid fa-phone contact-icon"></i>
                   <div>
                     <h3 class="contact-item-title">Phone</h3>
                     <a class="contact-item-link">+63 956-813-0383</a>
@@ -363,25 +331,17 @@
       © 2024 - Joshua Benedicto
     </p>
   </footer>
-  <!-- 
-    - #BACK TO TOP
-  -->
+  <!-- Back to Top -->
   <a href="#top" class="back-to-top" data-back-to-top>HOME</a>
-  <!-- 
-    - custom js link
-  -->
+  <!-- Custom js link -->
   <script src="./assets/js/script.js"></script>
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- AOS.js -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       delay: 500, // values from 0 to 3000, with step 50ms
       duration: 1500, // values from 0 to 3000, with step 50ms
-      once: true, // whether animation should happen only once - while scrolling down
+      once: false, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
     });
   </script>
